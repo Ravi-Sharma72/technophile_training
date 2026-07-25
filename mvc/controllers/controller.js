@@ -46,8 +46,29 @@ export const editController = async (req, res) => {
   }
 };
 
-
-
 //now we'll use res.json and send in object
 
+/*
+try{
+  res.json({
+      code:200,
+      success:true,
+      message:"okk",
+      data:[],
+      error:false
+  })
+}catch(err){
+  res.json({
+      code:500,
+      success:false,
+      message:"Internal server error ",
+      data:[],
+      error:true
+  })
+}
 
+
+
+
+
+*/
